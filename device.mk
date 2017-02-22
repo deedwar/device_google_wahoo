@@ -29,6 +29,8 @@ PRODUCT_ACTIONABLE_COMPATIBLE_PROPERTY_DISABLE := true
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true
 
+PRODUCT_VENDOR_KERNEL_HEADERS := device/google/wahoo/kernel-headers
+
 #PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 #    ro.adb.secure=1
 

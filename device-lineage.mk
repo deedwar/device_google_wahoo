@@ -8,7 +8,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.oem_unlock.pst=/dev/block/platform/soc/1da4000.ufshc/by-name/misc \
     ro.oem_unlock.pst_offset=6144
 
-# Build necessary packages for vendor
+# Kernel headers
+PRODUCT_VENDOR_KERNEL_HEADERS := device/google/wahoo/kernel-headers
+
+# IMS
 PRODUCT_PACKAGES += \
     chre \
     ese-ls-provision \
